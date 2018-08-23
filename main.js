@@ -28,11 +28,15 @@ let win = null; // Current window
 const electron = require("electron");
 const path = require("path");
 const app = electron.app;
+const width = 380;
+const height = 680;
 const newWin = () => {
   win = new electron.BrowserWindow({
+    width: width,
+    height: height,
     icon: path.join(__dirname, "static/icon.png")
   });
-  win.maximize();
+  // win.maximize();
   win.on("closed", () => (win = null));
   if (config.dev) {
     // Install vue dev tool and open chrome dev tools
