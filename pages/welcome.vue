@@ -25,7 +25,7 @@
       <div class="container p-b-md">
         <div class="level is-mobile p-lg">
           <div class="level-item has-text-centered is-marginless">
-            <a class="p-t-lg p-b-lg button is-fullwidth is-primary">Create Your Wallet</a>
+            <a class="p-t-lg p-b-lg button is-fullwidth is-primary" @click="goToTerms" >Create Your Wallet</a>
           </div>
         </div>
       </div>
@@ -41,6 +41,12 @@ export default {
         "Verto is your gateway to Volentix, with Verto, you can purchase VTX, the native token of the Volentix ecosystem.",
       join_message: "We're glad you've joined us."
     };
+  },
+  methods: {
+    goToTerms: function() {
+      console.log("terms:", this);
+      this.$router.push({ path: "terms_conditions" });
+    }
   }
 };
 </script>
