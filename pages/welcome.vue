@@ -35,6 +35,7 @@ export default {
   background-image: url(~/assets/img/wallet-bg.jpeg);
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  align-items: center;
 }
 
 /* Welcome Box Style */
