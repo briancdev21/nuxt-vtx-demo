@@ -1,3 +1,36 @@
+@font-face {
+	font-family: "Calibri";
+	src: url("~assets/fonts/Calibri.ttf");
+}
+@font-face {
+	font-family: "Calibri-bold";
+	src: url("~assets/fonts/CALIBRIB.ttf");
+}
+@font-face {
+	font-family: "Calibri-italic";
+	src: url("~assets/fonts/CALIBRII.ttf");
+}
+@font-face {
+	font-family: "Gibson";
+	src: url("~assets/fonts/Gibson-Regular.ttf");
+}
+@font-face {
+	font-family: "Gibson-italic";
+	src: url("~assets/fonts/Gibson-RegularItalic.ttf");
+}
+@font-face {
+	font-family: "Gibson-semibold";
+	src: url("~assets/fonts/Gibson-SemiBold.otf");
+}
+@font-face {
+	font-family: "Gibson-bold";
+	src: url("~assets/fonts/Gibson-bold.ttf");
+}
+@font-face {
+	font-family: "Gibson-bolditalic";
+	src: url("~assets/fonts/Gibson-BoldItalic.ttf");
+}
 body, html {
   overflow: hidden !important;
+  font-family: 'Calibri' !important;
 }
