@@ -4,7 +4,8 @@ module.exports = {
   loading: false, // Disable default loading bar,
   css: [
     // SCSS file in the project
-    { src: "~/scss/spacing.scss", lang: "scss" }
+    { src: "~/scss/spacing.scss", lang: "scss" },
+    { src: "~/scss/global.scss", lang: "scss" }
   ],
   build: {
     extend(config, { isDev, isClient }) {

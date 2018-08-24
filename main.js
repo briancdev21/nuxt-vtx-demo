@@ -29,7 +29,7 @@ const electron = require("electron");
 const path = require("path");
 const app = electron.app;
 const width = 380;
-const height = 680;
+const height = 700;
 const newWin = () => {
   win = new electron.BrowserWindow({
     width: width,

@@ -2,7 +2,7 @@
   <div>
     <div class="container is-fluid is-flex wallet-background is-centered has-text-centered">
       <div class="main-section has-text-white">
-        <div class="welcome-section">WELCOME TO</div>
+        <div class="welcome-section is-size-1">WELCOME TO</div>
         <div class="logo p-b-sm">
           <img src="~/assets/img/verto-logo-white.png" >
           <div class="is-size-5 has-text-weight-bold is-uppercase has-text-right">BY VOLENTIX</div>
@@ -41,19 +41,19 @@ export default {
 /* Welcome Box Style */
 .main-section {
   padding: 15px 10px 35px;
-  background: rgba(41, 41, 41, 0.6);
+  background: rgba(41, 41, 41, 0.3);
   margin: 0 25px;
   border-radius: 3px;
   align-items: center;
 }
 .main-section .welcome-section {
   text-transform: uppercase;
-  font-size: 2.8rem;
-  line-height: 3.5rem;
 }
 .main-section .logo {
   padding-right: 40px;
   padding-left: 40px;
+  max-width: 320px;
+  margin: auto;
 }
 .main-section .logo img {
   width: 100%;
