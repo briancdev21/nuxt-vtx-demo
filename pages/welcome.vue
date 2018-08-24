@@ -53,7 +53,7 @@ export default {
   background-repeat: no-repeat;
 }
 .box {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.42);
 }
 .button {
   padding-top: 1.5rem;
