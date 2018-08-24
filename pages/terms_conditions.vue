@@ -9,10 +9,10 @@
     </div>
     <div class="hero-body is-paddingless">
       <div class="container p-l-lg p-r-lg">
-        <h3 class="subtitle is-marginless">
+        <h3 class="subtitle is-marginless font-gibson">
           Terms & Conditions
         </h3>
-        <div class="box terms-box m-t-sm is-size-6 has-text-grey-dark">
+        <div class="box terms-box m-t-sm is-size-6 font-gibson">
           <article>
             <p class="m-t-md m-b-md" >Placeholder US citizens Warning</p>
             <p class="m-t-md m-b-md" >Vestibulum volutpat fermentum elit eget consectetur. Curabitur interdum tincidunt tincidunt. Nam non mi libero. integer congue lorem vestibulum ante mattis fringilla.</p>
@@ -33,10 +33,10 @@
     <div class="hero-foot">
       <div class="container">
         <div class="level is-mobile p-lg">
-          <div class="level-item has-text-centered is-marginless">
+          <div class="level-item has-text-centered is-marginless font-gibson-semibold">
             <a class="p-t-lg p-b-lg button is-fullwidth is-light m-r-sm deny-btn">Deny</a>
           </div>
-          <div class="level-item has-text-centered is-marginless">
+          <div class="level-item has-text-centered is-marginless font-gibson-semibold">
             <a class="p-t-lg p-b-lg button is-fullwidth is-primary m-l-sm">Agree</a>
           </div>
         </div>
