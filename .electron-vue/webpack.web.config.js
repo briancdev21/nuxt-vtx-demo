@@ -108,8 +108,8 @@ let webConfig = {
       filename: 'index.html',
       template: path.resolve(__dirname, '../src/index.ejs'),
       minify: {
-        collapseWhitespace: true,
-        removeAttributeQuotes: true,
+        collapseWhitespace: false,
+        removeAttributeQuotes: false,
         removeComments: true
       },
       nodeModules: path.resolve(__dirname, '../node_modules')
@@ -138,10 +138,11 @@ let webConfig = {
  * Adjust webConfig for production settings
  */
 if (process.env.NODE_ENV === 'production') {
-  webConfig.devtool = ''
+  // webConfig.devtool = 'source-map'
 
   webConfig.plugins.push(
-    new BabiliWebpackPlugin(),
+    // new BabiliWebpackPlugin(),
+    
     new CopyWebpackPlugin([
       {
         from: path.join(__dirname, '../static'),
@@ -150,11 +151,13 @@ if (process.env.NODE_ENV === 'production') {
       }
     ]),
     new webpack.DefinePlugin({
-      'process.env.NODE_ENV': '"production"'
-    }),
-    new webpack.LoaderOptionsPlugin({
-      minimize: true
+     'process.env.NODE_ENV': '"production"'
     })
+    ,
+    new webpack.LoaderOptionsPlugin({
+      minimize: false
+    })
+    
   )
 }
 
